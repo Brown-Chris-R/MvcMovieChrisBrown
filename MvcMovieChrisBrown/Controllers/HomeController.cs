@@ -17,14 +17,14 @@ namespace MvcMovieChrisBrown.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "This web site was built by Chris Brown for CIT 365 (BYU-Idaho).";
 
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Have some questions or feedback?";
 
             return View();
         }

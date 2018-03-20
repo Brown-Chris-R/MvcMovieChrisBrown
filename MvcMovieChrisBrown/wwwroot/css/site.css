@@ -64,6 +64,9 @@ body {
     margin: 15px;
 }
 
+.has-float-label > span {
+    position: relative;
+}
 /* Hide/rearrange for smaller screens */
 @media screen and (max-width: 767px) {
     /* Hide captions */

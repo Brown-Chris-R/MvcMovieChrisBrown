@@ -69,8 +69,13 @@ body {
 }
 /* Hide/rearrange for smaller screens */
 @media screen and (max-width: 767px) {
-    /* Hide captions */
-    .carousel-caption {
-        display: none;
+    body {
+        font-size: 0.975em;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        font-size: 0.82em;
     }
 }
